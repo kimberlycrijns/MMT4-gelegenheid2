@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap');
+
+body {
+    background-color: white;
+}
+
+.navigation {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    z-index: 2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    top: 0;    
+    text-transform: uppercase;
+}
+
+.navigation{
+    background-color: transparent;
+    color: #FFAFE3;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav li {
+    float: right;
+    margin-top: 30px;
+    margin-right: 10%;
+    font-size: 1.3em;
+}
+.titleportfolio{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    color: #FFAFE3;
+    margin-top: 30%;
+    margin-left: auto;
+    position: absolute;
+
+}
+li a {
+    text-decoration: none;
+    color: #FFAFE3;
+}
+
+.header {
+    max-width: 100%;
+    height: 680px;
+    background-image: linear-gradient(#0076FF, #FFAFE3);
+}
+
+#slideshow { 
+    position: absolute; 
+    width: 100%; 
+    height: 650px; 
+}
+
+#slideshow > div { 
+    position: absolute;  
+    top: 0px;
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+.vincent {
+    float: left;
+    width: 15%;
+    height: 15%;
+    margin-left: 16%;
+    margin-top: 10%;
+}
+.facevincent {
+    position: absolute;
+    float: left;
+    margin-right: 3%;
+    width: 10%;
+    border-radius: 50%;   
+}
+
+.titel {
+    margin-top: 165px;
+    margin-left: 30%;
+    margin-right: 30%;
+    position: absolute;
+    width: 68%;
+    color: white;
+    font-size: 3em;
+    font-family: 'Playfair Display', serif;
+    z-index: 1;
+    text-justify: inter-word;
+}
+.titel2 {
+    margin-top: 240px;
+    margin-left: 30%;
+    margin-right: 30%;
+    position: absolute;
+    width: 68%;
+    color: white;
+    font-size: 3em;
+    font-family: 'Playfair Display', serif;
+    z-index: 1;
+    text-justify: inter-word;
+}
+.intro {
+    max-width: 58%;
+    margin-left: 30%;
+    margin-right:30%;
+    margin-top: 402px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: white;
+    z-index: 1;
+}
+
+.bgheader {
+    margin-top: 0%;
+    height: 680px;
+    object-fit: cover;
+    opacity: .3;
+    width: 100%;
+}
+
+.bgheader2 {
+    margin-top: 0%;
+    height: 680px;
+    width: 100%;
+    object-fit: cover;
+    opacity: .3;
+}
+.bgheader3 {
+    margin-top: 0%;
+    height: 680px;
+    width: 100%;
+    object-fit: cover;
+    opacity: .3;
+}
+
+.informatie {
+    height: 1550px;
+    width: 100%;
+    background-color: inherit;
+}
+
+.background {
+    margin-top: -120px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 846px;
+   position: absolute;
+}
+
+.featuredportfolio{
+    height: 600px;
+    width:  100%;
+    background: white;
+}
+
+.titleportfolio{
+    margin-left: auto;
+}
+
+.titelvideo {
+    font-size: 1em;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    position: absolute;
+    margin-left: 210px;
+    margin-top:10px;
+}
+
+.video-js {
+    height: 525px;
+    float: left;
+    margin-left: 200px;
+    width: 68%;
+    background-color: #0076FF;
+}
+
+.video:hover .buttons{ 
+    opacity: 1;
+}
+
+.buttons{
+    height: 400px;
+    float: left;
+    margin-left: 20%;
+    margin-top: 10%;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+#toggle1 {
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/play@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(235, 235, 235);
+    border: none;
+    border-radius: 50px;
+}
+
+#rewind1{
+    width: 60px;
+    height: 60px;
+    background-image: url(../img/rewind\ icon@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #0076FF(235, 235, 235);
+    border: none;
+    border-radius: 50px;
+}
+
+
+/* grid */
+.boxes{
+    height: 600px;
+    width: 100%;
+}
+.overlay {
+    position: absolute;
+    color: black;
+    font-size: 2.8em;
+    font-family: 'Playfair Display', serif;
+    margin-left: 16%;
+    float: left;
+    text-align-last: center;
+  }
+ 
+
+
+.titleportfolio{
+    margin-left: 750px;
+    margin-top: -10%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+}
+
+.box1{
+    float: left;
+    margin-top: -2%;
+    margin-left: 15%;
+    width: 352px;
+    height: 352px;
+}
+.box2{
+    float: left;
+    margin-top: -2%;
+    margin-left: 2%;
+    width: 352px;
+    height: 352px;
+}
+.box3{
+    float: left;
+    margin-top: -2%;
+    margin-left: 2%;
+    width: 352px;
+    height: 352px;
+}
+.box4{
+    float: left;
+    margin-left: 15%;
+    margin-top: 1%;
+    width: 352px;
+    height: 352px;
+}
+.box5{
+    float: left;
+    margin-left: 2%;
+    margin-top: 1%;
+    width: 352px;
+    height: 352px;
+}
+.box6{
+    float: left;
+    margin-left: 2%;
+    margin-top: 1%;
+    width: 352px;
+    height: 352px;
+}
+.picturesbox{
+   
+    height: 352px;
+    width: 352px;
+    transition: 300ms;
+
+}
+.picturesbox:hover{
+    opacity: 0.4;
+}
+.boxes.picturesbox{
+    background-color: #0076FF; 
+}
+
+.togglebutton1{
+    margin-bottom: 2%;
+    margin-top: 15%;
+    margin-left: 680px;
+    background-color: #1D00FF;
+    height: 58px;
+    width: 325px;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFAFE3;
+    font-weight: 1000;
+}
+button{
+    float: left;
+    margin-left: 40%;
+    margin-top: 5%;
+    background-color: #1D00FF;
+    height: 58px;
+    width: 325px;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFAFE3;
+    font-weight: 1000;
+}
+
+.vraag {
+    margin-top: 80px;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 2em;
+    text-align: center; 
+}
+
+.contact {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 130px;
+    width: 40%;
+    position: absolute;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    text-align: center; 
+}
+
+.footerblauw {
+    height: 400px;
+    width: 100%;
+    background-color: #1D00FF;  
+}
+
+.knop {
+    height: 6%;
+    width: 12%;
+    margin-left: 44%;
+    margin-right: 44%;
+    margin-top: 300px;
+    position: absolute;
+    z-index: 2;
+    font-weight: 600;
+    border: none;
+    color: #FFAFE3;
+    background-color: #1D00FF;
+    cursor: pointer;
+}
+
+/* contact */
+#toggle{
+    float: left;
+    
+    margin-left: 20%;
+    margin-top: -12%;
+}
+
+@media only screen and (max-width: 1366px) {
+    .informatie{
+        height: 600px;
+    }
+
+    .video-js{
+        height: 320px;
+        margin-left: 140px 
+    }
+    .titel.titel2{
+        font-size: 2em;
+    }
+    .vincent{
+        margin-top: 18%;
+    }
+    .intro{
+        font-size: 1.3em;
+    }
+
+    .buttons{
+        margin-top: 20%;
+        margin-left: 22%;
+    }
+   
+    .titleportfolio{
+        margin-left: 40%;
+        margin-top: -30%;
+    }
+    .picturesbox{
+        height: 200px;
+        width: 200px;
+    }
+    .box1{
+        margin-top: -22%;
+        margin-left: 15%;
+    }
+    .box2{
+        margin-top: -22%;
+        margin-left: -10%;
+    }
+    .box3{
+        margin-top: -36%;
+        margin-left: 66%;
+    }
+    .overlay{
+        font-size: 2em;
+        margin-top: -18%
+    }
+    .box4{
+        margin-left: 15%;
+        margin-top: -12%;
+    }
+    .box5{
+        margin-left: -10%;
+        margin-top: -12%;
+    }
+    .box6{
+        margin-left: 64%;
+        margin-top: -34%;
+    }
+    .footerblauw{
+        height: 300px;
+        margin-top: 30%;
+        margin-bottom: 0%;
+        position: absolute;
+    }
+    .togglebutton1{
+        margin-bottom: 2%;
+        margin-top: 17%;
+        margin-left: 360px;
+    }
+}
+
+@media only screen and (max-width: 736px) {
+   nav ul {
+    margin-right: 10%;   
+    font-size: 0.5em;  
+    }
+
+    .header{
+        height: 300px;
+    }
+    .titel{
+        margin-top: 20%;
+        font-size: 1em;
+    }
+    .titel2{
+        margin-top: 24%;
+        font-size: 1em;
+    }
+    .intro{
+        margin-top: 30%;
+        font-size: 1em;
+    }
+
+    .vincent{
+    display: none;
+    }
+    
+    .video-js{
+        height: 235px;
+        margin-left: 17%;
+        margin-top: 25%; 
+    }
+    .picturesbox{
+        height: 200px;
+        width: 200px;
+    }
+
+    .box1{
+        margin-top: -22%;
+        margin-left: 30%;
+    }
+    .box2{
+        margin-top: -32%;
+        margin-left: 30%;
+    }
+    .box3{
+        margin-top: -33%;
+        margin-left: 30%;
+    }
+    .overlay{
+        display: none;
+    }
+    .box4{
+        margin-left: 30%;
+        margin-top: -32%;
+    }
+    .box5{
+        margin-left: 30%;
+        margin-top: -32%;
+    }
+    .box6{
+        margin-left: 30%;
+        margin-top: -32%;
+    }
+    .footerblauw{
+        margin-top: 200%;
+        height: 200px;
+    }
+   .vraag{
+       font-size: 1em;
+   }
+    .informatie {
+        height: 600px;
+    }
+    .togglebutton1{
+        margin-left: 35%;
+        margin-top: 35%;
+        height: 30px;
+        width: 150px;
+    }
+    .bgheader{
+        height: 300px;
+    }
+    #slideshow{
+        height: 300px;
+    }
+}
+
+
